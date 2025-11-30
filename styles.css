@@ -1,0 +1,914 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+}
+/* Nuorodos */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* Navigacija */
+
+.logo-text {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: -0.025em;
+}
+.nav-main-link {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.main-menu > .nav-item + .nav-item {
+  margin-left: 0.75rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-style: italic;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -2.5%;
+  text-align: center;
+}
+.nav-avatar {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  border: 1px solid white;
+}
+.nav-link span {
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -2.5%;
+  text-align: center;
+  color: #5f5f5f;
+}
+
+/*  HERO dalies nustatymai */
+.hero-section {
+  border-bottom: 1px solid #111;
+}
+
+.hero-section {
+  border-bottom: 1px solid #111;
+}
+
+.hero-intrude {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #5f5f5f;
+  max-width: 480px;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  color: #5f5f5f;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.hero-image {
+  border-radius: 1.25rem;
+}
+/* Paieškos forma */
+.search-form .form-control {
+  border-radius: 999px;
+  position: relative;
+  padding-inline: 1.25rem;
+  background: #161616;
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  border: none;
+  color: #5f5f5f;
+}
+
+.search-form .search-btn {
+  border-radius: 999px;
+  position: absolute;
+  margin-left: 20%;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-weight: 700;
+  box-shadow: 2px 2px 0px 0px #453f3f21 inset;
+  background: #fff;
+  font-size: 0.625rem;
+  letter-spacing: 21%;
+  color: #000;
+}
+
+/* Trečia sekcija produktai */
+.product-card {
+  color: #fff;
+}
+
+.product-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  font-style: Bold;
+  line-height: 100%;
+  padding-left: 1rem;
+  letter-spacing: 0.2px;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 0;
+}
+
+.product-old-price {
+  text-decoration: line-through;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #5f5f5f;
+  margin-left: 0.5rem;
+}
+/* Produktų kortelės */
+.product-rating {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.product-rating i {
+  font-size: 0.9rem;
+}
+
+/* Širdys ant produktų */
+.product-rating span {
+  color: #5f5f5f;
+  margin-left: 0.1rem;
+}
+
+/* Širdys ant kortelių */
+.product-heart-circle,
+.product-heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.product-heart-circle {
+  height: 48px;
+  width: 48px;
+}
+
+.product-heart-icon {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  background: #000000;
+
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* New ženklelis ant nuotraukų */
+.badge-new {
+  background: #423496;
+  color: #fff;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* Sekcijų nustatymai */
+.section-dark {
+  background-color: #000;
+}
+.gradient-card {
+  background: linear-gradient(180deg, rgba(1, 1, 1, 0.26) 0%, #010101 100%);
+}
+.section-heading {
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: left;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: white;
+}
+
+.section-heading-sub {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #5f5f5f;
+}
+
+.section-paragraph {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #5f5f5f;
+}
+
+/* Section card text */
+.section-card-title {
+  font-weight: 700;
+  font-size: 2.1rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  font-style: Bold;
+  line-height: 100%;
+  letter-spacing: -2.5%;
+  color: #000;
+}
+
+.section-card-subtitle {
+  font-size: 1.25rem;
+  font-family: Ubuntu;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #5f5f5f;
+  font-style: Bold;
+  letter-spacing: -2.5%;
+}
+
+/* horizontalios linijos */
+.line-text {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.line1,
+.line2,
+.line3 {
+  height: 6px;
+  background-color: #555;
+  border-radius: 999px;
+}
+
+.line1 {
+  width: 94px;
+}
+
+.line2 {
+  width: 250px;
+}
+
+.line3 {
+  width: 150px;
+}
+
+/* Nuolaida 70% */
+.discount-big {
+  font-weight: 700;
+  /* font-size: clamp(3rem, 8vw, 5rem); */
+  font-size: 10.7rem;
+  line-height: 1.1;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.discount-sub {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+/* Gradient kortelė */
+.discount-card {
+  background: linear-gradient(
+    251deg,
+    #a73b27 22.43%,
+    rgba(98, 129, 41, 0.512744) 59.21%,
+    rgba(25, 202, 43, 0) 76.17%
+  );
+  background-blend-mode: multiply;
+  border-radius: 1.25rem;
+}
+/* Spalvų daugiau nei reikia gal pasikeis produktų spalvos */
+/*1.PRADŽDIA PASIRINKIMO SU INPUT ORANžiNIU EKSPERMENTAS */
+.color-choices #orange[type="radio"] {
+  appearance: none; /* pašaliname naršyklės numatytą išvaizdą */
+  -webkit-appearance: none;
+  width: 20px; /* rato dydis */
+  height: 20px;
+  border-radius: 50%; /* kad būtų apskritimas */
+  background-color: #f3a195; /* oranžinė spalva visada matoma */
+  border: 2px solid #b35a00; /* tamsesnis apvadas */
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* PABAIGA ORANŽINIAM */
+
+/*2.PRADŽIA PASIRINKIMO SU INPUT JUODAM EKSPERMENTAS */
+.color-choices #black[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #383632;
+  border: 2px solid #2a2928;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 3.PRADŽIA PASIRINKIMO SU INPUT RUDAM EKSPERMENTAS */
+.color-choices #brown[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #c38364;
+  border: 2px solid#aa6847;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 4.PRADŽIA PASIRINKIMO SU INPUT BALTAM EKSPERMENTAS */
+.color-choices #white[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #efeae6;
+  border: 2px solid#efeae6;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 5.PRADŽIA PASIRINKIMO SU INPUT RAUDONAM EKSPERMENTAS */
+.color-choices #red[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #cb988f;
+  border: 2px solid #cb988f;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+/* 6.PRADŽIA PASIRINKIMO SU INPUT GELTONAM EKSPERMENTAS */
+.color-choices #yellow[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d7b606;
+  border: 2px solid #d7b606;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 7.PRADŽIA PASIRINKIMO SU INPUT GELTONAM EKSPERMENTAS */
+.color-choices #blue[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4c4b90;
+  border: 2px solid #4c4b90;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 8.PRADŽIA PASIRINKIMO SU INPUT PINK EKSPERMENTAS */
+.color-choices #pink[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #cb988f;
+  border: 2px solid #cb988f;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/*  9. PRADŽIA PASIRINKIMO SU INPUT SCARLET EKSPERMENTAS */
+.color-choices #scarlet[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #eb1616;
+  border: 2px solid #eb1616;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+/*  10. PRADŽIA PASIRINKIMO SU INPUT DUSTYMOUVE EKSPERMENTAS */
+.color-choices #dustymouve[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #bf95a8;
+  border: 2px solid #bf95a8;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 11. PRADŽIA PASIRINKIMO SU INPUT DEPMARINO EKSPERMENTAS */
+.color-choices #depmarino[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4c4b90;
+  border: 2px solid #4c4b90;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 12. PRADŽIA PASIRINKIMO SU INPUT STELBLACK EKSPERMENTAS */
+.color-choices #stelblack[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #2c2c2c;
+  border: 2px solid #2c2c2c;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 13. PRADŽIA PASIRINKIMO SU INPUT ALMASBLACK EKSPERMENTAS */
+.color-choices #almasblack[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #5f5f5f;
+  border: 2px solid #5f5f5f;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 14. PRADŽIA PASIRINKIMO SU INPUT WINERED EKSPERMENTAS */
+.color-choices #winered[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #c92976;
+  border: 2px solid #c92976;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+/* 15. PRADŽIA PASIRINKIMO SU INPUT WINERED EKSPERMENTAS */
+.color-choices #deepsalate[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #34535b;
+  border: 2px solid #34535b;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 16. PRADŽIA PASIRINKIMO SU INPUT ROSERED EKSPERMENTAS */
+.color-choices #rosered[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #eb127a;
+  border: 2px solid #eb127a;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+/* 17. PRADŽIA PASIRINKIMO SU INPUT INDIGOBLUE EKSPERMENTAS */
+.color-choices #indigoblue[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #262f6d;
+  border: 2px solid #262f6d;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+/* 18. PRADŽIA PASIRINKIMO SU INPUT LIGHTROSE EKSPERMENTAS */
+.color-choices #lightrose[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f8a0a7;
+  border: 2px solid #f8a0a7;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 19. PRADŽIA PASIRINKIMO SU INPUT DARKBROWN EKSPERMENTAS */
+.color-choices #darkbrown[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #512a1e;
+  border: 2px solid #512a1e;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* 19. PRADŽIA PASIRINKIMO SU INPUT DARKBROWN EKSPERMENTAS */
+.color-choices #light[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #474659;
+  border: 2px solid #474659;
+  cursor: pointer;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.2s ease;
+}
+
+/* Kai pažymėtas */
+#darkbrown[type="radio"]:checked {
+  transform: scale(1.2);
+  border: 3px solid #000;
+}
+
+/* kai pasirinktas – apvadas paryškėja */
+#lightrose:checked:hover [type="radio"] {
+  border: 3px solid #000;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 5px rgba(20, 98, 58, 0.4);
+}
+/* Kai pasirinktas – paryškėja */
+/* Kai pasirinktas ir užvedama pele – dar ryškesnis */
+.radio-box:hover input[type="radio"]:checked + .circle {
+  border-width: 3px;
+  width: 30px;
+  height: 30px;
+  transform: scale(1.2);
+}
+
+/* kai pasirinktas – apvadas paryškėja */
+.color-choices #orange[type="radio"]:checked,
+.color-choices #black[type="radio"]:checked,
+.color-choices #brown[type="radio"]:checked,
+.color-choices #white[type="radio"]:checked,
+.color-choices #red[type="radio"]:checked,
+.color-choices #yellow[type="radio"]:checked,
+.color-choices #blue[type="radio"]:checked,
+.color-choices #pink[type="radio"]:checked,
+.color-choices #scarlet[type="radio"]:checked,
+.color-choices #dustymouve[type="radio"]:checked,
+.color-choices #depmarino[type="radio"]:checked,
+.color-choices #stelblack[type="radio"]:checked,
+.color-choices #almasblack[type="radio"]:checked,
+.color-choices #winered[type="radio"]:checked,
+.color-choices #deepsalate[type="radio"]:checked,
+.color-choices #rosered[type="radio"]:checked,
+.color-choices #indigoblue[type="radio"]:checked,
+.color-choices #lightrose[type="radio"]:checked,
+.color-choices #darkbrown[type="radio"]:checked,
+.color-choices #light[type="radio"]:checked {
+  border: 3px solid #a90e0e;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+/* SCROLL BARAS */
+.scroll-wrapper {
+  width: 100%;
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Left side: scrollable avatars */
+.scroll-content {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  max-width: calc(100% - 120px); /* leave space for arrows */
+}
+
+.scroll-content .circle {
+  background: #2b2b2b;
+
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.scroll-content .circle:hover {
+  border-color: blue;
+  color: #000;
+  width: 14px;
+  background: #423496;
+  height: 14px;
+  transform: scale(1.1);
+}
+
+.scroll-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Circles */
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #f0f0f0;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* Arrows */
+.scroll-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.scroll-btn {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #000;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+
+.scroll-btn:hover {
+  border-color: #ccc;
+  color: #000;
+  transform: scale(1.1);
+}
+
+/*    Avataro apskritimas       */
+
+.avatar-A {
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+/* nepatinka Call outas todėl išjungiu įdėsiu savo */
+
+.custom-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: white;
+  color: white;
+  border: 2px solid black;
+  font-size: 1px;
+  cursor: pointer;
+
+  /* 3 kampai apvalinti, kairys apatinis - ne */
+  border-radius: 12px 12px 12px 0px;
+  transition: 0.2s;
+}
+
+.custom-btn:hover {
+  height: 100px;
+  font-size: 18px;
+  color: black;
+  width: 200px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+/* A raidės apskritimas */
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #262f6d; /* tamsiai mėlyna */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  border: 2px solid #00000015; /* lengvas kontūras */
+}
+
+/*    hoverio pogrupis         */
+
+.hover-info {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  background: white;
+  width: 180px;
+  border-radius: 12px;
+  display: none;
+}
+
+/* horizontalios linijos */
+.line-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line-text .line1 {
+  height: 6px;
+  width: 94px; /* pasirinktas ilgis */
+  background-color: #555;
+}
+.line-text .line2 {
+  height: 6px;
+  width: 250px; /* pasirinktas ilgis */
+  background-color: #555;
+}
+.line-text .line3 {
+  height: 6px;
+  width: 150px; /* pasirinktas ilgis */
+  background-color: #555;
+}
+/* Footerio apipavidalinimas */
+.footer-title {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #5f5f5f;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+/* RESPONSIVE SMULKMENOS Kaip gerai kad gridas prisitaiko prie skirtingų ekranų dyžių lieka tik pakoreguoti šriftus */
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-label {
+    font-size: 1.4rem;
+  }
+
+  .section-heading {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .section-heading-sub {
+    font-size: 1.6rem;
+  }
+
+  .discount-big {
+    text-align: center;
+  }
+
+  .discount-sub {
+    text-align: center;
+  }
+
+  .footer-title {
+    text-align: left;
+  }
+}
